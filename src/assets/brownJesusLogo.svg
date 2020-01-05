@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="107px" viewBox="0 0 380 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.2555408,3.13837756e-15 L248.744459,4.14336123e-16 C252.310534,-2.4074122e-16 253.603679,0.371302445 254.907383,1.06853082 C256.211087,1.76575919 257.234241,2.78891348 257.931469,4.09261719 C258.628698,5.39632089 259,6.68946584 259,10.2555408 L259,66.7444592 C259,70.3105342 258.628698,71.6036791 257.931469,72.9073828 C257.234241,74.2110865 256.211087,75.2342408 254.907383,75.9314692 C253.603679,76.6286976 252.310534,77 248.744459,77 L10.2555408,77 C6.68946584,77 5.39632089,76.6286976 4.09261719,75.9314692 C2.78891348,75.2342408 1.76575919,74.2110865 1.06853082,72.9073828 C0.371302445,71.6036791 1.60494146e-16,70.3105342 -2.76224082e-16,66.7444592 L2.76224082e-16,10.2555408 C-1.60494146e-16,6.68946584 0.371302445,5.39632089 1.06853082,4.09261719 C1.76575919,2.78891348 2.78891348,1.76575919 4.09261719,1.06853082 C5.39632089,0.371302445 6.68946584,3.7934549e-15 10.2555408,3.13837756e-15 Z" id="path-1"></path>
+        <filter x="-10.2%" y="-24.0%" width="120.5%" height="168.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="259" height="77" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav" transform="translate(15.000000, 7.000000)">
+            <g id="logo">
+                <g>
+                    <g id="Rectangle-2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="18" fill="#56EEEC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="PARTH-PATEL." fill="#000000" font-family="AvenirNext-Bold, Avenir Next" font-size="40" font-weight="bold" letter-spacing="2.5">
+                        <tspan x="66.64" y="62">PARTH PATEL.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

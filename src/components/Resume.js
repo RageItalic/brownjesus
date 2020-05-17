@@ -14,14 +14,21 @@ class Resume extends Component {
           <h2 className="underline">About</h2>
           <br />
           <p>
-            I am a Web Developer obsessed with mastering the full stack driven
-            by the fact that the apps that I can build can create change in the
-            real wold and affect lives. My strength and interests lie in
-            conquering the full stack. I want to work at a company trying to
-            solve a challenging, real world problem so that I can see how much
-            work goes into creating real change. On my breaks from coding, I try
-            to cook food from different parts of the world and catch up on
-            movies and tv shows, like every other twenty year old.
+            I am a full stack web developer with a drive to solve real world
+            problems and create a positive impact in the lives of others. I
+            enrolled at the Pennsylvania State University intending to study
+            Electrical Engineering but decided to take a leave of absence so
+            that I could learn how to code and use this integral skill in the
+            real world before I continued studying. I am a fast learner and
+            believe more in a mission than a tech stack. Thus, more often than
+            not, one could find me learning a new skill or honing an existing
+            one. I am a self starter and believe that I can dive into the deep
+            end of any problem thrown at me and figure out how to solve it. I
+            want to work at a company trying to solve a challenging, real world
+            problem so that I can see first hand the amount of work that goes
+            into creating real change. On my breaks from coding, I try to read,
+            bake different types of breads, cook food from different parts of
+            the world, and listen to podcasts.
           </p>
         </div>
         <img className="scroll" src={downArrow} alt="Scroll Arrow" />
@@ -30,22 +37,22 @@ class Resume extends Component {
           <div className="work1">
             <div className="title">
               <h2>Hatch Coding</h2>
-              <p>Coach | Nov, 2019 – Current</p>
+              <p>Coach | Nov, 2019 – Feb, 2020</p>
             </div>
             <div className="workDesc">
               <p>
-                Work with teens and preteens in a project based learning format
-                to guide them through the process of learning Javascript and
-                Python. Day to day consists of leading small lessons on logical
-                and computational thinking, breaking down both logical and
-                syntactical concepts of both languages and demonstrating how to
-                use them in various projects.
+                Worked with teens and preteens in a project based learning
+                format to guide them through the process of learning Javascript
+                and Python. Day to day consisted of leading small lessons on
+                logical and computational thinking, breaking down both logical
+                and syntactical concepts of both languages and demonstrating how
+                to use them in various projects.
               </p>
             </div>
           </div>
           <div className="work2">
             <div className="title">
-              <p>Lead Developer (Part-Time Contract) | Dec, 2017 – Apr, 2018</p>
+              <p>Developer (Part-Time Contract) | Dec, 2017 – Apr, 2018</p>
               <h2>CaloBox</h2>
             </div>
             <div className="workDesc">

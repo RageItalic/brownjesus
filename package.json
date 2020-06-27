@@ -4,11 +4,14 @@
   "private": true,
   "dependencies": {
     "firebase-tools": "5.1.1",
+    "marked": "^1.1.0",
     "react": "^16.5.2",
     "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.5.2",
+    "react-markdown": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "url-slug": "^2.3.1"
   },
   "scripts": {
     "start": "react-scripts start",

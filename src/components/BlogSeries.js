@@ -2,46 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import urlSlug from "url-slug";
 
-// const mockBlogSeriesData = [
-//   {
-//     postId: 1,
-//     title: "What This Series is About",
-//     accentColor: "#fbea11",
-//     postUrlString: "post-1",
-//   },
-//   {
-//     postId: 2,
-//     title: "Post 2",
-//     accentColor: "#fbea11",
-//     postUrlString: "post-2",
-//   },
-//   {
-//     postId: 3,
-//     title: "Post 3",
-//     accentColor: "#fbea11",
-//     postUrlString: "post-3",
-//   },
-//   {
-//     postId: 4,
-//     title: "Post 4",
-//     accentColor: "#fbea11",
-//     postUrlString: "post-4",
-//   },
-//   {
-//     postId: 5,
-//     title: "Post 5",
-//     accentColor: "#fbea11",
-//     postUrlString: "post-5",
-//   },
-//   {
-//     postId: 6,
-//     title: "Post 6",
-//     accentColor: "#fbea11",
-//     postUrlString: "post-6",
-//   },
-// ];
-
-//change this back to class component for now...
+//changed this back to class component for now...
 //need to upgrade react before using hooks.. so no point using
 //functional components
 class BlogSeries extends Component {
@@ -155,30 +116,6 @@ class BlogSeries extends Component {
                 </Link>
               );
             })}
-
-            {/* {mockBlogSeriesData.map((blogPost) => {
-              return (
-                <Link
-                  to={{
-                    pathname: `/blog/${blogPost.urlString}`,
-                    state: {
-                      id: blogPost.id,
-                      title: blogPost.title,
-                      accentColor: blogPost.accentColor,
-                    },
-                  }}
-                  style={{ textDecoration: "none" }}
-                >
-                  <div className="blogSeriesCard" key={blogPost.postId}>
-                    <h1>{blogPost.title}</h1>
-                    <div
-                      className="blogCardAccent"
-                      style={{ backgroundColor: blogPost.accentColor }}
-                    />
-                  </div>
-                </Link>
-              );
-            })} */}
           </div>
         </div>
       </div>

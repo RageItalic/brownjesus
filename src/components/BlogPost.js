@@ -11,7 +11,13 @@ class BlogPost extends Component {
   };
 
   async componentDidMount() {
-    const { title } = this.props.location.state;
+    let title = this.props.location.pathname
+      .split("/")[3]
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+
+    //const { title } = this.props.location.state;
 
     let parentDir = this.props.location.pathname
       .split("/")[2]
@@ -39,13 +45,31 @@ class BlogPost extends Component {
 
   render() {
     //console.log(this.props.location);
-    const { title, fileName, markdown } = this.state;
+    const { title, fileName, markdown, loading } = this.state;
+
+    if (loading) {
+      return (
+        <div className="blogSeries">
+          <div className="centerHeader">
+            <h1>Loading...</h1>
+          </div>
+        </div>
+      );
+    }
 
     return (
-      <div className="centerHeader">
-        <h1>{title}</h1>
+      <div
+        style={{
+          minHeight: "calc(100vh - 250px)",
+          marginLeft: "12%",
+          marginRight: "12%",
+        }}
+      >
+        <div className="centerHeader">
+          <h1>{title}</h1>
+        </div>
         <div>
-          <ReactMarkdown source={markdown} />
+          <ReactMarkdown source={markdown} escapeHtml={false} />
         </div>
       </div>
     );

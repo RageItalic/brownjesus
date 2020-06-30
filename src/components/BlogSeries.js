@@ -59,13 +59,23 @@ class BlogSeries extends Component {
           .context("../blogSeries/To-Leet-Code-And-Beyond", true, /\.md$/)
           .keys();
         break;
-      default:
+      case "Under-Construction":
         seriesTitle = "Under Construction";
         seriesAccentColor = blogSeriesData["Under Construction"].accentColor;
         postUrls = require
           .context("../blogSeries/Under-Construction", true, /\.md$/)
           .keys();
         break;
+      default:
+        postUrls = null;
+    }
+
+    if (postUrls == null) {
+      return this.setState({
+        loading: false,
+        error: true,
+        errorMsg: "This series does not exist...",
+      });
     }
 
     if (postUrls.length > 0) {
@@ -118,8 +128,23 @@ class BlogSeries extends Component {
           className="blogSeries"
           style={{ minHeight: "calc(100vh - 250px)" }}
         >
-          <div className="centerHeader">
+          <div
+            className="centerHeader"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
             <h1>{errorMsg}</h1>
+            <br />
+            <div>
+              <img
+                width="400px"
+                src="https://media.giphy.com/media/UUsJFg6ceklgSOegZh/giphy.gif"
+              />
+              {/* <img src="https://www.dropbox.com/s/46mhuk8c1p8ex9q/F4771891-A5D8-41B3-B8B2-516E46121C8D.png?raw=1" /> */}
+            </div>
           </div>
         </div>
       );

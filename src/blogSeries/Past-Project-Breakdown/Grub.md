@@ -334,7 +334,7 @@ And thats pretty much it!
 
 <div style="display: flex; flex-direction: row; justify-content: space-between">
   <img src="https://www.dropbox.com/s/46mhuk8c1p8ex9q/F4771891-A5D8-41B3-B8B2-516E46121C8D.png?raw=1" width="300px">
-  <img style="flex: 1" src="https://www.dropbox.com/s/82kng8a39000uiy/752EBFE6-77D7-4ECB-89CC-923C593A5EC1_1_100_o.jpeg?raw=1" width="200px">
+  <img src="https://www.dropbox.com/s/82kng8a39000uiy/752EBFE6-77D7-4ECB-89CC-923C593A5EC1_1_100_o.jpeg?raw=1" width="200px">
   <img style="flex: 1" src="https://www.dropbox.com/s/8g2mcfr6ludaktc/F5109218-4243-4EBC-AC41-D86708815053_1_100_o.jpeg?raw=1" width="200px">
 </div>
 

@@ -39,6 +39,9 @@ class BlogPost extends Component {
       fileName,
       markdown: text,
     });
+
+    console.log("NEW STATE SET");
+    console.log(this.state);
   }
 
   render() {

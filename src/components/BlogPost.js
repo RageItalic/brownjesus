@@ -29,13 +29,11 @@ class BlogPost extends Component {
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join("-");
 
-    //let fullPath = `../blogSeries/${parentDir}/${fileName}`;
-
     const file = await import("../blogSeries/" + parentDir + "/" + fileName);
     const response = await fetch(file.default);
     const text = await response.text();
 
-    await this.setState({
+    this.setState({
       loading: false,
       title,
       fileName,

@@ -19,17 +19,17 @@ class BlogPost extends Component {
 
     //const { title } = this.props.location.state;
 
-    let parentDir = await this.props.location.pathname
+    let parentDir = this.props.location.pathname
       .split("/")[2]
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join("-");
-    let fileName = await `${urlSlug(title)}.md`
+    let fileName = `${urlSlug(title)}.md`
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join("-");
 
-    let fullPath = `../blogSeries/${parentDir}/${fileName}`;
+    //let fullPath = `../blogSeries/${parentDir}/${fileName}`;
 
     const file = await import("../blogSeries/" + parentDir + "/" + fileName);
     const response = await fetch(file.default);

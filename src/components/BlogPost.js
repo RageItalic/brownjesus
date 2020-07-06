@@ -11,7 +11,7 @@ class BlogPost extends Component {
   };
 
   async componentDidMount() {
-    let title = this.props.location.pathname
+    let title = await this.props.location.pathname
       .split("/")[3]
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
@@ -19,12 +19,12 @@ class BlogPost extends Component {
 
     //const { title } = this.props.location.state;
 
-    let parentDir = this.props.location.pathname
+    let parentDir = await this.props.location.pathname
       .split("/")[2]
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join("-");
-    let fileName = `${urlSlug(title)}.md`
+    let fileName = await `${urlSlug(title)}.md`
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join("-");

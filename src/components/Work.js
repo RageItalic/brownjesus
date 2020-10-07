@@ -6,6 +6,8 @@ import { ReactComponent as Vue } from "../assets/devIcons/vue.svg";
 import { ReactComponent as Rails } from "../assets/devIcons/rails.svg";
 import { ReactComponent as Ruby } from "../assets/devIcons/ruby.svg";
 import { ReactComponent as Grub } from "../assets/grub.svg";
+import GiveScreenshot from "../assets/GiveScreenshot2.png";
+import GrowScreenshot from "../assets/GrowScreenshot.png";
 import downArrow from "../assets/down_arrow.png";
 import "../App.css";
 
@@ -28,7 +30,7 @@ class Work extends Component {
           <br />
           <br />
           <h2 className="centerText">
-            Over the past two years, I have worked with numerous web
+            Over the past few years, I have worked with numerous web
             technologies and am constantly iterating on my skills by building
             numerous projects.
           </h2>
@@ -41,13 +43,67 @@ class Work extends Component {
               <h1>Grub.</h1>
               <p>
                 An <span>IOS</span> app that uses the Meetups API to find events
-                with Free Pizza and Beer near you.
+                with Free Pizza and Beer near you. Built with React Native,
+                Meetup API.
               </p>
               {/* <br />
 							<h5><span><a href="https://itunes.apple.com/us/app/grub/id1434454949?mt=8" target="_blank" rel="noopener noreferrer">Available here.</a></span></h5>				 */}
             </div>
           </div>
+
+          <div className="portfolioItem" style={{ marginTop: "90px" }}>
+            <div className="projectDesc">
+              <h1>Give.</h1>
+              <p>
+                An <span>IOS</span> app that rounds up the change from your
+                recent transactions and donates it to a charity of your choice.
+                Built with React Native, Node/Express, Firebase, Plaid.
+              </p>
+            </div>
+            <div
+              style={{
+                maxHeight: "800px",
+                borderRadius: "55px",
+                backgroundPosition: "cover",
+                overflow: "hidden",
+                boxShadow: "8px 8px 20px 0px #cccccc",
+              }}
+            >
+              <img
+                src={GiveScreenshot}
+                style={{ height: "100%", width: "100%", marginTop: "5px" }}
+              />
+            </div>
+          </div>
+
+          <div className="portfolioItem" style={{ marginTop: "90px" }}>
+            <div
+              style={{
+                textAlign: "left",
+                maxHeight: "815px",
+                borderRadius: "55px",
+                backgroundPosition: "cover",
+                overflow: "hidden",
+                boxShadow: "8px 8px 20px 0px #cccccc",
+              }}
+            >
+              <img
+                src={GrowScreenshot}
+                style={{ height: "100%", width: "100%", marginTop: "5px" }}
+              />
+            </div>
+            <div className="projectDesc">
+              <h1>Grow.</h1>
+              <p>
+                An <span>IOS</span> investment app designed to donate all
+                proceeds to a charity of the users choice. Built with React
+                Native, Node/Express.
+              </p>
+            </div>
+          </div>
         </div>
+        <br />
+        <br />
         <br />
         <br />
         <div className="endText">

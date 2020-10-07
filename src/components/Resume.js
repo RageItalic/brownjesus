@@ -37,13 +37,13 @@ class Resume extends Component {
           <div className="work1">
             <div className="title">
               <h2>Hatch Coding</h2>
-              <p>Coach | Nov, 2019 – Feb, 2020</p>
+              <p>Coach | Nov, 2019 – Current</p>
             </div>
             <div className="workDesc">
               <p>
-                Worked with teens and preteens in a project based learning
+                Working with teens and preteens in a project based learning
                 format to guide them through the process of learning Javascript
-                and Python. Day to day consisted of leading small lessons on
+                and Python. Day to day consists of leading small lessons on
                 logical and computational thinking, breaking down both logical
                 and syntactical concepts of both languages and demonstrating how
                 to use them in various projects.
@@ -52,8 +52,26 @@ class Resume extends Component {
           </div>
           <div className="work2">
             <div className="title">
-              <p>Developer (Part-Time Contract) | Dec, 2017 – Apr, 2018</p>
+              <p>JavaScript Instructor | Jul, 2020 – Sept, 2020</p>
+              <h2>hEr Volution</h2>
+            </div>
+            <div className="workDesc">
+              <p>
+                Worked as a JavaScript instructor for an organization that helps
+                create career opportunities for young women in STEM fields.
+                Designed a syllabus that covers everything from the basics of JS
+                all the way to frameworks that allow them to build web
+                applications. Day to day consisted of leading multiple remotely
+                taught lessons, walking the virtual classroom, assigning
+                exercises, assisting with problem solving, tracking student
+                progress and mentoring students in small group sessions.
+              </p>
+            </div>
+          </div>
+          <div className="work1">
+            <div className="title">
               <h2>CaloBox</h2>
+              <p>Developer (Part-Time Contract) | Dec, 2017 – Apr, 2018</p>
             </div>
             <div className="workDesc">
               <p>
@@ -93,10 +111,10 @@ class Resume extends Component {
               </ul>
             </div>
           </div>
-          <div className="work1">
+          <div className="work2">
             <div className="title">
-              <h2>Elecsoft Consulting</h2>
               <p>Web Development Intern | Jul, 2017 – Sep, 2017</p>
+              <h2>Elecsoft Consulting</h2>
             </div>
             <div className="workDesc">
               <p>

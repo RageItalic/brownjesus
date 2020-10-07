@@ -217,6 +217,14 @@ label {
   color: #a8a4a4;
 }
 
+.workLeft {
+  text-align: left;
+}
+
+.workRight {
+  text-align: right;
+}
+
 .work1 .workDesc,
 .work2 .workDesc,
 .edu1 .eduDesc {
@@ -251,18 +259,20 @@ label {
 }
 
 .projectDesc {
-  text-align: right;
+  margin: 20px;
+  text-align: center;
   width: 420px;
 }
+/* 
+.projectDesc .second {
+  text-align: left;
+  width: 420px;
+} */
 
 .projectDesc span,
 .projectDesc span a {
   color: #56eeec;
   text-decoration: none;
-}
-
-.projectDesc p {
-  /*font-weight: 1000px;*/
 }
 
 .grub {

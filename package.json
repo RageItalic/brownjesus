@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase-tools": "5.1.1",
-    "marked": "^1.1.0",
+    "marked": "^4.0.10",
     "react": "^16.5.2",
     "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.5.2",

@@ -13,14 +13,18 @@ class Home extends Component {
             <h2>
               I am a{" "}
               <span>
-                Full Stack Web <br />
+                Full Stack <br />
                 Developer
               </span>
               ,{" "}
               <span>
-                Pizza <br />
+                Wannabe <br />
+                Pizzaiolo
+              </span>,{" "}
+              <span>
+                Surf <br />
                 Enthusiast
-              </span>{" "}
+              </span> {" "}
               and{" "}
               <span>
                 Life Long <br />
@@ -38,7 +42,7 @@ class Home extends Component {
             <img
               src={me}
               alt="Parth Patel Img"
-              style={{ height: 500, "border-radius": 10 }}
+              style={{ height: 500, borderRadius: 10 }}
             />
           </div>
         </div>

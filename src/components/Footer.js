@@ -53,9 +53,9 @@ class Footer extends Component {
               style={{ margin: "10px", marginTop: "50px" }}
             >
               <p>
-                My hair was long and super wavy just a few months ago. One day,
+                My hair was long and super wavy a short while ago. One day,
                 I had it open in front of my friends and thus, the name Brown
-                Jesus was coined. Because I look like Jesus, if he from the
+                Jesus was coined. Because I looked like Jesus, if he was from the
                 Indian subcontinent.
               </p>
               <br />

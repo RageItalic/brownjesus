@@ -8,6 +8,11 @@ class Blog extends Component {
       <div className="blogContainer">
         <div className="centerHeader">
           <h1>Blog Coming Really Soon.</h1>
+          {/* <div style={{display: "flex", flexDirection: "row", justifyContent: "center"}}>
+            <p><Link to="/blog/my-goals">Here's a teaser.</Link></p>
+            <p style={{visibility: "hidden"}}>Wow</p> 
+            <p><Link to="/blog/my-vision">Here's another.</Link></p>
+          </div> */}
         </div>
         <br />
         <br />

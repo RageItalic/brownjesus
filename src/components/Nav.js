@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import {ReactComponent as Logo} from '../assets/brownJesusLogo.svg'
+import ResumePDF from '../assets/ParthPatelResumeOfficial2022.pdf'
 import '../App.css'
 
 class Nav extends Component {
@@ -12,8 +13,9 @@ class Nav extends Component {
 						<Logo className="logo"/>
 					</Link>
 					<ul>
-						<li><Link to="/resume" className="link">Resume.</Link></li>
+						<li><a href={ResumePDF} target="_blank" className="link">Resume.</a></li>
 						<li><Link to="/work" className="link">Work.</Link></li>
+						<li><Link to="/about" className="link">About.</Link></li>
 						<li><Link to="/blog" className="link">Blog.</Link></li>
 					</ul>
 				{/*
@@ -27,8 +29,9 @@ class Nav extends Component {
 						<label for="toggleResponsiveNav">&#9776;</label>
 						<input type="checkbox" id="toggleResponsiveNav"/>
 						<ul>
-							<li><Link to="/resume" className="link">Resume.</Link></li>
+							<li><a href={ResumePDF} target="_blank" className="link">Resume.</a></li>
 							<li><Link to="/work" className="link">Work.</Link></li>
+							<li><Link to="/about" className="link">About.</Link></li>
 							<li><Link to="/blog" className="link">Blog.</Link></li>
 						</ul>
 					</div>

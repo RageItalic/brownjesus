@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import {ReactComponent as Logo} from '../assets/brownJesusLogo.svg'
-import ResumePDF from '../assets/ParthPatelResumeOfficial2022.pdf'
+import ResumePDF from '../assets/ParthPatelResumeOfficial2023.pdf'
 import '../App.css'
 
 class Nav extends Component {
